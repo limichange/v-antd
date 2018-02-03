@@ -1,6 +1,6 @@
 <template>
-  <div :class="$style.Button">
-    Button
+  <div class="a-btn">
+    <slot />
   </div>
 </template>
 
@@ -14,6 +14,10 @@ export default {
 }
 </script>
 
-<style lang="less" module>
-.Button {}
+<style lang="less">
+.a-btn {
+  padding: 2px;
+  display: inline-block;
+  border: 1px solid gray;
+}
 </style>

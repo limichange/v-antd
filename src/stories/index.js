@@ -1,11 +1,8 @@
-import Vue from 'vue';
+import Vue from 'vue'
 
-import { storiesOf } from '@storybook/vue';
+import { storiesOf } from '@storybook/vue'
 
-import MyButton from './Button.vue';
+import ButtonDefault from './button/Default.vue'
 
-storiesOf('MyButton', module)
-  .add('story as a component', () => ({
-    components: { MyButton },
-    template: '<my-button :rounded="true">rounded</my-button>'
-  }));
+storiesOf('Button', module)
+  .add('Default', () => ButtonDefault)
