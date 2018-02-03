@@ -4,6 +4,7 @@
   "description": "An enterprise-class UI components based on Ant Design and Vue.",
   "main": "index.js",
   "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,18 @@
   "bugs": {
     "url": "https://github.com/limichange/v-antd/issues"
   },
-  "homepage": "https://github.com/limichange/v-antd#readme"
+  "homepage": "https://github.com/limichange/v-antd#readme",
+  "dependencies": {
+    "vue": "^2.5.13",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@storybook/vue": "^3.3.11",
+    "babel-core": "^6.26.0",
+    "css-loader": "^0.28.9",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "vue-loader": "^14.1.1",
+    "vue-template-compiler": "^2.5.13"
+  }
 }
