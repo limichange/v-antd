@@ -4,6 +4,7 @@
   "description": "An enterprise-class UI components based on Ant Design and Vue.",
   "main": "index.js",
   "scripts": {
+    "deploy-storybook": "storybook-to-ghpages",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +24,7 @@
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@storybook/storybook-deployer": "^2.2.0",
     "@storybook/vue": "^3.3.11",
     "babel-core": "^6.26.0",
     "css-loader": "^0.28.9",
